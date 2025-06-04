@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# VSCode/PyCharm
+.vscode/
+.idea/
+
+# Archivos de datos y mensajes
+messages/
+messages_data/
+rabbitmq_data/
